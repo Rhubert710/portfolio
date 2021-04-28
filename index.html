@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- heading DIV -->
+<div id="heading">
+
+    <div>jr</div>
+
+    <div id="headingInfoDiv">
+
+        <div id="imageSpan">
+            <img id="profilePicture" src="profilePicture.jpeg" alt="imgWillGoHere">
+        </div>
+
+        <div id="contactSpan">
+
+            <p>GitHub</p>
+            <p>E-mail</p>
+
+        </div>
+
+    </div>
+
+    <div>fef</div>
+    
+</div>
+
+<!-- End of Heading DIv -->
+
+<div id="mainBodyDiv">
+
+    <div>empty</div>
+    <div id="leftMenu">
+        <p>tyetjhthjt</p>
+        <p>tyetjhthjt</p>
+        <p>tyetjhthjt</p>
+        <p>tyetjhthjt</p>
+        <p>tyetjhthjt</p>
+    </div>
+
+    <div id="viewer">
+
+        <p>some stuff</p>
+        <p>more stuff</p>
+    </div>
+
+    <div>empty</div>
+</div>
+
+    
+</body>
+</html>
+
+<style>
+#heading{
+    display: grid;
+    grid-template-columns: 20%  60% 20%;
+    grid-template-rows: 30vh;
+    
+    
+}
+
+#mainBodyDiv{
+    display: grid;
+    grid-template-columns: 20%  15% 45% 20%;
+    grid-template-rows: 100vh;
+}
+
+#imageSpan{
+    justify-content: center;
+}
+
+#contactSpan{
+    
+    padding: 6%;
+    border-radius: 15px;
+}
+
+#headingInfoDiv{
+    background-color: darkgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#profilePicture{
+    border-radius: 50%;
+    height: 30vh;
+    width: 30vh;
+}
+
+#leftMenu{
+    background-color: darkslategray;
+}
+
+#viewer{
+    background-color: forestgreen;
+    
+}
+
+
+</style>
