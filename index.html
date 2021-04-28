@@ -8,10 +8,12 @@
 </head>
 <body>
 
+    <div id="topOfPageEmptyDiv"></div>
+
     <!-- heading DIV -->
 <div id="heading">
 
-    <div>jr</div>
+    <div></div>
 
     <div id="headingInfoDiv">
 
@@ -28,7 +30,7 @@
 
     </div>
 
-    <div>fef</div>
+    <div></div>
     
 </div>
 
@@ -46,15 +48,13 @@
             
         </div>
 
-        <div id="viewer">
+        <div id="viewer"> 
 
-            <div><p>some stuff</p></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div id="aboutMeDive"><p>Army Veteran and wind turbine technician.  I am looking to take my computer programming skills and wind turbine experienceto work in the renewable energy field</p></div>
+            <div style="display: none;"></div>
+            <div id="projects" style="display: none;"></div>
+            <div style="display: none;"></div>
 
-            
-            <p>more stuff</p>
         </div>
     </div>
 
@@ -69,13 +69,20 @@
 
  
 body{
+
+    background-image: url("windTurbineWallpaper.webp"); */
     background-color: goldenrod;
+}
+
+#topOfPageEmptyDiv{
+    height: 8vh;
+
 }
 
 #heading{
     display: grid;
     grid-template-columns: 20%  60% 20%;
-    grid-template-rows: 30vh;
+    grid-template-rows: 37vh;
     
 }
 
@@ -92,7 +99,6 @@ body{
 #contactSpan{
     
     padding: 6%;
-    border-radius: 15px;
 }
 
 #headingInfoDiv{
@@ -100,16 +106,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-
+    /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+    box-shadow: rgba(0, 0, 0, 0.4) 30px 10px 10px;
     
 
 }
 
 #profilePicture{
     border-radius: 50%;
-    height: 30vh;
-    width: 30vh;
+    height: 34vh;
+    width: 34vh;
 }
 
 #mainBodyDivContent{
