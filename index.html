@@ -37,21 +37,28 @@
 <div id="mainBodyDiv">
 
     <div>empty</div>
-    <div id="leftMenu">
-        <p>tyetjhthjt</p>
-        <p>tyetjhthjt</p>
-        <p>tyetjhthjt</p>
-        <p>tyetjhthjt</p>
-        <p>tyetjhthjt</p>
+    <div id="mainBodyDivContent">
+        <div id="leftMenu">
+            <p>+ About me</p>
+            <p>+ Resume</p>
+            <p>+ Projects</p>
+            <p>+ Contact</p>
+            
+        </div>
+
+        <div id="viewer">
+
+            <div><p>some stuff</p></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+            
+            <p>more stuff</p>
+        </div>
     </div>
 
-    <div id="viewer">
-
-        <p>some stuff</p>
-        <p>more stuff</p>
-    </div>
-
-    <div>empty</div>
+    <div></div>
 </div>
 
     
@@ -59,17 +66,22 @@
 </html>
 
 <style>
+
+ 
+body{
+    background-color: goldenrod;
+}
+
 #heading{
     display: grid;
     grid-template-columns: 20%  60% 20%;
     grid-template-rows: 30vh;
     
-    
 }
 
 #mainBodyDiv{
     display: grid;
-    grid-template-columns: 20%  15% 45% 20%;
+    grid-template-columns: 20%  60% 20%;
     grid-template-rows: 100vh;
 }
 
@@ -88,6 +100,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+    
+
 }
 
 #profilePicture{
@@ -96,12 +112,30 @@
     width: 30vh;
 }
 
+#mainBodyDivContent{
+    
+    display: grid;
+    grid-template-columns: 27% 73%;
+
+    margin-top: 2%;
+    
+
+    box-shadow: rgba(0, 0, 0, 0.4) 30px 10px 10px;
+}
+
 #leftMenu{
     background-color: darkslategray;
+    text-align: center;
+    padding-top: 20%;
+
+}
+#leftMenu p{
+    margin: 10%;
 }
 
 #viewer{
     background-color: forestgreen;
+    
     
 }
 
